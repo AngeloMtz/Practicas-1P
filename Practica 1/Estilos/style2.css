@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgb(151, 213, 220), rgb(65, 172, 234));
+}
+
+.texto h1 {
+    height: 100px;
+    background-color: orange;
+    padding: 30px;
+    text-align: center;
+}
+.container-table{
+    padding: 130px;
+}
+table{
+    color: black;
+    font-size: 15px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,2);
+    background: azure;
+    margin: auto;
+
+}
+
+thead{
+    background: orange;
+}
+th {
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+td{
+    padding: 15px;
+    border-bottom: solid 1px rgba(12, 4, 4, 0.2);
+}
+img{
+    height: 120px;
+    border-radius: 50%;
+}
